@@ -25,7 +25,7 @@ Click Add build step → Execute Windows batch command
 Enter the following (adjust path if needed):
  
  
-cd C:\Users\YourName\jenkins-demo\
+cd "C:\Users\YourName\jenkins-demo\"
 javac HelloWorld.java
 java HelloWorld
  
